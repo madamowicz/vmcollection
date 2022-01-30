@@ -1,0 +1,9 @@
+---
+- hosts: all
+
+  tasks:
+    - name: create file from common
+      file:
+        path: /tmp/test_from_common_collection.txt
+        state: touch
+...
